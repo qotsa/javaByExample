@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Header/>
+    <soap:Body>
+        <types:SendRequestRequest xmlns:types="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2">
+            <types:SenderProvidedRequestData Id="SIGNED_BY_CONSUMER">
+                <types:MessageID>3f165d39-bfeb-11e8-b2d7-5e636d5f6803</types:MessageID>
+                <types:ReferenceMessageID/>
+                <basic:MessagePrimaryContent xmlns:basic="urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2">
+                    <fns_ul:FNSVipULRequest xmlns:fns_ul="urn://x-artefacts-fns-vipul-tosmv-ru/311-14/4.0.5" НомерДела="БН" ИдДок="20c45a14-5d34-4e3d-b88a-23283fd33088">
+                        <fns_ul:ЗапросЮЛ>
+                            <ИННЮЛ xmlns="urn://x-artefacts-fns-vipul-tosmv-ru/311-14/4.0.5">3606005806</ИННЮЛ>
+                        </fns_ul:ЗапросЮЛ>
+                    </fns_ul:FNSVipULRequest>
+                </basic:MessagePrimaryContent>
+            </types:SenderProvidedRequestData>
+        </types:SendRequestRequest>
+    </soap:Body>
+</soap:Envelope>
